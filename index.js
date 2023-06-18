@@ -15,9 +15,9 @@ const app = express();
 
 app.use(express.json());
 
-// app.get("/", (req, res) => {
-//   res.send("welcome to apiace");
-// });
+app.get("/", (req, res) => {
+  res.send("welcome to apiace");
+});
 
 //app.use("/auth", authRoute);
 app.use("/studio", photographerRouter);
