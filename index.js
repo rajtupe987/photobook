@@ -13,6 +13,7 @@ const photographerRouter=require("./routes/photogrpher.route");
 const bookingRouter=require("./routes/bookingroute")
 const app = express();
 
+
 app.use(express.json());
 
 app.get("/", (req, res) => {
